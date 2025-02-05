@@ -1,4 +1,4 @@
-// const heading = React.createElement("h1",{id:"heading1", className:"align"},"Welcome to React using React-JS");
+// const headings = React.createElement("h1",{id:"heading1", className:"align"},"Welcome to React using React-JS");
 
 const heading = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child1" }, [
