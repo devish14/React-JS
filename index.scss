@@ -1,0 +1,61 @@
+.app {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+  }
+  .img-align {
+    width: 100px;
+    height: 100px;
+  }
+  .nav-align {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 20px;
+      li {
+        padding: 10px;
+        margin: 10px;
+      }
+    }
+  }
+
+  .body-container {
+    margin-top: 20px;
+    padding: 10px;
+    .search-bar {
+      .search {
+        outline: none;
+        padding: 10px;
+      }
+    }
+    .res-container {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      .res-card {
+        width: 180px;
+        height: 260px;
+        border: 1px solid black;
+        padding: 10px;
+        background-color: #f5f5f5;
+        .res-image {
+          width: 180px;
+          height: 150px;
+        }
+        .res-name {
+          font-size: 20px;
+          margin-bottom: 5px;
+          font-weight: bold;
+        }
+        .res-description {
+          font-size: 16px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}
