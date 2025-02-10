@@ -2,7 +2,7 @@
 
 export const restaurantList = [
   {
-    data: {
+    info: {
       id: "255655",
       name: "Cake & Cream",
       cloudinaryImageId: "421458f15518deb6eb09a6f168daaf4b",
@@ -18,7 +18,7 @@ export const restaurantList = [
     },
   },
   {
-    data: {
+    info: {
       id: "350363",
       name: "Haldiram's Sweets and Namkeen",
       cloudinaryImageId: "ixpxqsjrymsxgmt0cvlp",
@@ -32,7 +32,7 @@ export const restaurantList = [
     },
   },
   {
-    data: {
+    info: {
       id: "154891",
       name: "Rasraj Restaurant",
       cloudinaryImageId:
@@ -46,7 +46,7 @@ export const restaurantList = [
     },
   },
   {
-    data: {
+    info: {
       id: "798745",
       name: "Friends Restaurant",
       cloudinaryImageId:
@@ -61,7 +61,7 @@ export const restaurantList = [
     },
   },
   {
-    data: {
+    info: {
       id: "314737",
       name: "RASOI the KITCHEN",
       cloudinaryImageId: "lvvv1gtajlp7y5msjrjb",
@@ -75,7 +75,7 @@ export const restaurantList = [
     },
   },
   {
-    data: {
+    info: {
       id: "201454",
       name: "Morsels Restaurants",
       cloudinaryImageId:
@@ -92,7 +92,7 @@ export const restaurantList = [
     },
   },
   {
-    data: {
+    info: {
       id: "266124",
       name: "Trimurti Restaurant",
       cloudinaryImageId: "z4qvgz4pwapyi3uglys7",
@@ -108,7 +108,7 @@ export const restaurantList = [
     },
   },
   {
-    data: {
+    info: {
       id: "509254",
       name: "Saha Restaurant",
       cloudinaryImageId: "z1ez4uc9idul2uj2v87g",
@@ -122,7 +122,7 @@ export const restaurantList = [
     },
   },
   {
-    data: {
+    info: {
       id: "255955",
       name: "Meghana Foods",
       cloudinaryImageId: "iivuhjc2mswi9lublktf",
@@ -138,7 +138,7 @@ export const restaurantList = [
     },
   },
   {
-    data: {
+    info: {
       id: "255785",
       name: "Donne Biriyani",
       cloudinaryImageId: "d26bca0145c805ef8642fad5a3ab26a0",
@@ -154,7 +154,7 @@ export const restaurantList = [
     },
   },
   {
-    data: {
+    info: {
       id: "567812",
       name: "Spice Junction",
       cloudinaryImageId:
@@ -167,7 +167,7 @@ export const restaurantList = [
     },
   },
   {
-    data: {
+    info: {
       id: "678921",
       name: "Biryani Hub",
       cloudinaryImageId: "h1ymnuqmffsvzoesdlnd",
@@ -179,7 +179,7 @@ export const restaurantList = [
     },
   },
   {
-    data: {
+    info: {
       id: "789231",
       name: "Pasta & More",
       cloudinaryImageId: "39e0ac9e01e139dd8c50aa35fddead14",
@@ -191,7 +191,7 @@ export const restaurantList = [
     },
   },
   {
-    data: {
+    info: {
       id: "894563",
       name: "Sushi House",
       cloudinaryImageId: "e7ee90a0ab15af21c18b27b6a2468dd8",
@@ -203,7 +203,7 @@ export const restaurantList = [
     },
   },
   {
-    data: {
+    info: {
       id: "255701",
       name: "Bobba Bhai",
       cloudinaryImageId:
@@ -220,7 +220,7 @@ export const restaurantList = [
     },
   },
   {
-    data: {
+    info: {
       id: "255695",
       name: "Rolls and Bowls Company",
       cloudinaryImageId: "b76ea4dabf81247077db6a0b0286c145",
@@ -236,7 +236,7 @@ export const restaurantList = [
     },
   },
   {
-    data: {
+    info: {
       id: "255308",
       name: "Mc Donald's",
       cloudinaryImageId:
@@ -253,7 +253,7 @@ export const restaurantList = [
     },
   },
   {
-    data: {
+    info: {
       id: "255903",
       name: "Kottayam Kerala Foods",
       cloudinaryImageId:
