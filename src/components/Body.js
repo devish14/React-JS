@@ -7,6 +7,10 @@ import { restaurantList } from "../utils/mockData.js";
 import { useState, useEffect } from "react";
 
 import Shimmer from "./Shimmer.js";
+
+import { GET_RESTAURANT_LIST } from "../utils/config.js";
+
+import { Link } from "react-router";
 //   <div className="res-container">{RestaurantCard({resName:"Express Foods", cusine:"Biriyani, Asian", deliveryTime:"38 minutes", reviews : "4.4 stars"})}{RestaurantCard({resName:"KFC", cusine:"Fast Foods , Bugers", deliveryTime:"22 minutes", reviews : "4.1 stars"})}</div>
 
 //<div className="res-container"> <RestaurantCard resData={restaurantList}/> </div>
@@ -51,17 +55,12 @@ export const BodyComponent = () => {
   }, []);
 
   const fetchData = async () => {
-    const response = await fetch(
-      "https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING"
-    );
+    const response = await fetch(GET_RESTAURANT_LIST);
     const jsonResponse = await response.json();
-    const liveData =
-      jsonResponse?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
-        ?.restaurants;
-    const updatedData = [...liveData, ...restaurantList];
-    setRestLists(updatedData);
-    setFilteredRestLists(updatedData);
-    console.log(updatedData);
+
+    const liveData = jsonResponse?.data?.cards.slice(3, 13);
+    setRestLists(liveData);
+    setFilteredRestLists(liveData);
   };
 
   // Conditional rendering is used to check whether the data is loaded or not
@@ -125,9 +124,17 @@ export const BodyComponent = () => {
         {/* here i am using the filteredRestLists to map the data and pass the data to the RestaurantCard component insted of RestLists becoz filteredRestLists
       has a copy of RestLists and RestLists will not be changes on any filtered value */}
 
-        {filteredRestLists.map((element) => (
-          <RestaurantCard key={element?.info?.id} resData={element} />
-        ))}
+        {filteredRestLists.map((element) => {
+          return (
+            <Link
+              key={element?.card?.card?.info?.id} className="link-align"
+              to={`/restaurants/${element?.card?.card?.info?.id}`}
+            >
+              {" "}
+              <RestaurantCard resData={element} />
+            </Link>
+          );
+        })}
       </div>
     </div>
   );
