@@ -2,25 +2,16 @@ import { useState, useEffect } from "react";
 import { GET_SEPERATE_RESTAURANT_DATA, SINGLE_IMAGE } from "../utils/config";
 import Shimmer from "./Shimmer.js";
 import { useParams } from "react-router";
+import useRestaurantMenu from "../utils/useRestaurantMenu.js";
 
 const RestaurantMenu = () => {
-  const [restaurantData, setRestaurantData] = useState(null);
   const { id } = useParams();
   console.log(id);
-  useEffect(() => {
-    fetchData();
-  }, []);
 
-  const fetchData = async () => {
-    try {
-      const jsonData = await fetch(GET_SEPERATE_RESTAURANT_DATA + id);
-      const jsonResponse = await jsonData.json();
-      const liveData = jsonResponse?.data;
-      setRestaurantData(liveData);
-    } catch (error) {
-      console.error("Error fetching restaurant data:", error);
-    }
-  };
+
+  // Adding Custom hooks here so fetching data is done by the custom hook and displaying data is done by Restaurant Menu component;
+
+  const restaurantData = useRestaurantMenu(id);
 
   if (restaurantData === null) return <Shimmer />;
 
@@ -93,7 +84,7 @@ const RestaurantMenu = () => {
       <div className="menu-data-container">
         {itemCards.map((item) => {
           return (
-            <div className="menu-data-wrapper">
+            <div className="menu-data-wrapper" key={item?.card?.info?.id}>
                 <div className="container-1">
                   <div className="data1">{item?.card?.info?.name}</div>
                   <div className="data1">{item?.card?.info?.price / 100}</div>

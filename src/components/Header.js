@@ -6,10 +6,16 @@ import { useState } from "react";
 
 import { LOGO_URL } from "../utils/config";
 
+// using Font Awesome icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquareCheck, faCircle } from "@fortawesome/free-solid-svg-icons";
+
 import { Link } from "react-router";
+import useOnlineStatus from "../utils/useStatusOnline";
 
 const HeaderComponent = () => {
   const [buttonName, setButtonName] = useState("Login");
+  const onlineStatus = useOnlineStatus();
   return (
     <div className="header">
       <div className="logo">
@@ -17,6 +23,13 @@ const HeaderComponent = () => {
       </div>
       <div className="nav-align">
         <ul>
+        <li>
+      Online Status: {" "}
+      <FontAwesomeIcon
+        icon={onlineStatus ? faSquareCheck : faCircle}
+        style={{ color: onlineStatus ? "green" : "red" }} // ✅ Changes color dynamically
+      />
+    </li>
           <li>
             {/* Link is used for route navigation without refreshing or reloading the whole page */}
             <Link to="/">Home</Link>

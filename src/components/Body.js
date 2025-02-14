@@ -8,70 +8,26 @@ import { useState, useEffect } from "react";
 
 import Shimmer from "./Shimmer.js";
 
-import { GET_RESTAURANT_LIST } from "../utils/config.js";
-
 import { Link } from "react-router";
-//   <div className="res-container">{RestaurantCard({resName:"Express Foods", cusine:"Biriyani, Asian", deliveryTime:"38 minutes", reviews : "4.4 stars"})}{RestaurantCard({resName:"KFC", cusine:"Fast Foods , Bugers", deliveryTime:"22 minutes", reviews : "4.1 stars"})}</div>
 
-//<div className="res-container"> <RestaurantCard resData={restaurantList}/> </div>
+import useOnlineStatus from "../utils/useStatusOnline.js";
 
-// dymic way to call all the data , here restaurantList is the array of objects and the resData is the object which is passed to the RestaurantCard component
-
-// key is used to uniquely identify the component, the key here is id field from the restaurantList , dont use index as key as it will cause issues when the data is updated
-
-//  restaurantList.map((element) => (
-//       <RestaurantCard key={element.id}, resData={element} />
-//      ))
-
-// Body Component
-
-// Declaring state variable using useState hook
+import useRestaurantLists from "../utils/useRestaurantLists.js";
 
 export const BodyComponent = () => {
   console.log("Body rendered");
 
-  // useState hook is used to declare state variable and set the state variable and it should be called inside the export function
-
-  // restLists is the state variable and setRestLists is the function to set the state variable and
-
-  //  restaurantList is the initial value of the state variable coming from the mockData.js file
-
-  // const [restLists, setRestLists] = useState(restaurantList); here i am passing by mock data
-
-  // const [restLists, setRestLists] = useState([]); here i am passing empty array because i am fetching data from api and setting the state variable
-
-  const [restLists, setRestLists] = useState([]);
-  const [filteredRestLists, setFilteredRestLists] = useState([]);
   const [searchType, setSearchType] = useState("");
 
-  // Using useEffect hook to fetch the data from the API and set the state variable
+  // Custom hook is used here
 
-  // Live swiggy API is used to fetch the data and set the state variable
+  const { restLists, filteredRestLists, setFilteredRestLists } =
+    useRestaurantLists();
 
-  // getting the live data from api and also the data from the mockData.js file so to get more data
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-
-  const fetchData = async () => {
-    const response = await fetch(GET_RESTAURANT_LIST);
-    const jsonResponse = await response.json();
-
-    const liveData = jsonResponse?.data?.cards.slice(3, 13);
-    setRestLists(liveData);
-    setFilteredRestLists(liveData);
-  };
-
-  // Conditional rendering is used to check whether the data is loaded or not
-
-  // if(restLists.length === 0){
-  //   // return <h1>Loading the content ....</h1> instead of h1 tag we can use shimmer component as it gives a skeleton view of the content
-
-  //   return <Shimmer />
-  // }
-
-  //  using ternary operator to check the condition and render the content accordingly
+  const onlineStatus = useOnlineStatus();
+  if (onlineStatus === false) {
+    return <h1>You're offline. Check your Connection</h1>;
+  }
 
   return restLists.length === 0 ? (
     <Shimmer />
@@ -93,11 +49,11 @@ export const BodyComponent = () => {
               // here i am using restLists to filter the data and set the filtered data to the state variable filteredRestLists becoz in restLists i will get all the
               // restaurtants details and in filteredRestLists i will get only the filtered data. This filteredData is a copy of the restLists and i am filtering the data based on the searchType
 
-              const searchFilterValue = restLists.filter((element) =>
-                element?.info?.name
+              const searchFilterValue = restLists.filter((element) => {
+                return element?.card?.card?.info?.name
                   .toLowerCase()
-                  .includes(searchType.toLowerCase())
-              );
+                  .includes(searchType.toLowerCase());
+              });
               setFilteredRestLists(searchFilterValue);
             }}
           >
@@ -108,11 +64,11 @@ export const BodyComponent = () => {
           <button
             className="button1"
             onClick={() => {
-              const filterdValue = restLists.filter(
-                (element) => element?.info?.avgRating > 4.3
-              );
-              console.log(filterdValue);
-              setRestLists(filterdValue);
+              const filterdValue = restLists.filter((element) => {
+                console.log(element);
+                return element?.card?.card?.info?.avgRating > 4;
+              });
+              setFilteredRestLists(filterdValue);
             }}
           >
             Top Rated Restaurant
@@ -127,7 +83,8 @@ export const BodyComponent = () => {
         {filteredRestLists.map((element) => {
           return (
             <Link
-              key={element?.card?.card?.info?.id} className="link-align"
+              key={element?.card?.card?.info?.id}
+              className="link-align"
               to={`/restaurants/${element?.card?.card?.info?.id}`}
             >
               {" "}

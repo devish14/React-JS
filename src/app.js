@@ -1,15 +1,20 @@
-import React from "react";
+import React, {lazy,Suspense} from "react";
 import ReactDOM from "react-dom/client";
 import HeaderComponent from "./components/Header.js";
 import { BodyComponent } from "./components/Body.js";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router";
-import About from "./components/About.js";
 import Contact from "./components/Contact.js";
 import Error from "./components/Error.js";
 import RestaurantMenu from "./components/Restaurant-Menu.js";
 
+//  making about as a lazy loaded module , we are using suspense to wrap the Lazy loaded component 
+
+const About = lazy(()=>import("./components/About.js"));
+
+
 // Top level component
 const AppLayout = () => {
+
   return (
     <div className="app">
       <HeaderComponent />
@@ -30,7 +35,10 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <About />,
+        //using suspense to wrap the lazy loaded element .
+        element:  (<Suspense fallback={<h2>Loading...</h2>}>
+          <About />
+        </Suspense>),
       },
       {
         path: "/contact",
