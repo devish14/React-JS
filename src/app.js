@@ -1,4 +1,4 @@
-import React, {lazy,Suspense} from "react";
+import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import HeaderComponent from "./components/Header.js";
 import { BodyComponent } from "./components/Body.js";
@@ -7,16 +7,15 @@ import Contact from "./components/Contact.js";
 import Error from "./components/Error.js";
 import RestaurantMenu from "./components/Restaurant-Menu.js";
 
-//  making about as a lazy loaded module , we are using suspense to wrap the Lazy loaded component 
+//  making about as a lazy loaded module , we are using suspense to wrap the Lazy loaded component
 
-const About = lazy(()=>import("./components/About.js"));
-
+// -  bg-yellow-200 sm:bg-pink-400 md:bg-amber-600  lg:bg-green-500 xl:bg-blue-400 (media queries)
+const About = lazy(() => import("./components/About.js"));
 
 // Top level component
 const AppLayout = () => {
-
   return (
-    <div className="app">
+    <div className="">
       <HeaderComponent />
       {/* We are keeping the header component intact so using a child route and using OUTLET  */}
       <Outlet />
@@ -36,9 +35,11 @@ const appRouter = createBrowserRouter([
       {
         path: "/about",
         //using suspense to wrap the lazy loaded element .
-        element:  (<Suspense fallback={<h2>Loading...</h2>}>
-          <About />
-        </Suspense>),
+        element: (
+          <Suspense fallback={<h2>Loading...</h2>}>
+            <About />
+          </Suspense>
+        ),
       },
       {
         path: "/contact",

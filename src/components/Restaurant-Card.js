@@ -26,19 +26,23 @@ import { IMAGE_URL } from "../utils/config";
 // rendering dynamic data
 
 const RestaurantCard = (props) => {
-    const { resData } = props;
-   const { cuisines, cloudinaryImageId, name,costForTwo,avgRating,sla } = resData?.card?.card?.info ; // destructuring to make the code more efficient
-  
-    return (
-      <div className="res-card">
-        <img className="res-image" src={ IMAGE_URL+cloudinaryImageId} />
-        <div className="res-name">{name}</div>
-        <div className="res-description">{cuisines.join(", ")}</div>
-        <div className="res-description">{avgRating} ratings</div>
-        <div className="res-description">{costForTwo} </div>
-        <div className="res-description">{sla.deliveryTime} minutes</div>
-      </div>
-    );
-  };
+  const { resData } = props;
+  const { cuisines, cloudinaryImageId, name, costForTwo, avgRating, sla } =
+    resData?.card?.card?.info; // destructuring to make the code more efficient
 
-  export default RestaurantCard;
+  return (
+    <div className="bg-[#f5f5f5] border border-[#dcdcdc] w-70 h-95 p-[10px] rounded-2xl">
+      <img
+        className="w-70 h-40"
+        src={IMAGE_URL + cloudinaryImageId}
+      />
+      <div className="mb-[5px] font-bold text-xl">{name}</div>
+      <div className="mb-[5px] text-base">{cuisines.join(", ")}</div>
+      <div className="mb-[5px] text-base">{avgRating} ratings</div>
+      <div className="mb-[5px] text-base">{costForTwo} </div>
+      <div className="mb-[5px] text-base">{sla.deliveryTime} minutes</div>
+    </div>
+  );
+};
+
+export default RestaurantCard;

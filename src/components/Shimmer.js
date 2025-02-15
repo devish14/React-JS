@@ -1,162 +1,173 @@
 const Shimmer = () => {
   return (
-    <div className="shimmer-wrapper">
+    <div className="flex flex-wrap">
 
-      <div className="body-container">
-        <div className="res-container">
-          <div className="res-card">
-            <img className="res-image" />
-            <div className="res-name"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
+      <div className="mt-2 p-2">
+        <div className="mt-[10px] flex flex-wrap gap-[20px]">
+          <div className="bg-[#f5f5f5] border border-[#dcdcdc] w-70 h-95 p-[10px] rounded-2xl">
+            <img className="w-70 h-40" />
+            <div className="mb-[5px] font-bold text-xl"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
           </div>
         </div>
       </div>
 
-      <div className="body-container">
-        <div className="res-container">
-          <div className="res-card">
-            <img className="res-image" />
-            <div className="res-name"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
+      <div className="mt-2 p-2">
+        <div className="mt-[10px] flex flex-wrap gap-[20px]">
+          <div className="bg-[#f5f5f5] border border-[#dcdcdc] w-70 h-95 p-[10px] rounded-2xl">
+            <img className="w-70 h-40" />
+            <div className="mb-[5px] font-bold text-xl"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
           </div>
         </div>
       </div>
 
-      <div className="body-container">
-        <div className="res-container">
-          <div className="res-card">
-            <img className="res-image" />
-            <div className="res-name"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
+
+      <div className="mt-2 p-2">
+        <div className="mt-[10px] flex flex-wrap gap-[20px]">
+          <div className="bg-[#f5f5f5] border border-[#dcdcdc] w-70 h-95 p-[10px] rounded-2xl">
+            <img className="w-70 h-40" />
+            <div className="mb-[5px] font-bold text-xl"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
           </div>
         </div>
       </div>
 
-      <div className="body-container">
-        <div className="res-container">
-          <div className="res-card">
-            <img className="res-image" />
-            <div className="res-name"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
+
+      <div className="mt-2 p-2">
+        <div className="mt-[10px] flex flex-wrap gap-[20px]">
+          <div className="bg-[#f5f5f5] border border-[#dcdcdc] w-70 h-95 p-[10px] rounded-2xl">
+            <img className="w-70 h-40" />
+            <div className="mb-[5px] font-bold text-xl"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
           </div>
         </div>
       </div>
 
-      <div className="body-container">
-        <div className="res-container">
-          <div className="res-card">
-            <img className="res-image" />
-            <div className="res-name"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
+
+      <div className="mt-2 p-2">
+        <div className="mt-[10px] flex flex-wrap gap-[20px]">
+          <div className="bg-[#f5f5f5] border border-[#dcdcdc] w-70 h-95 p-[10px] rounded-2xl">
+            <img className="w-70 h-40" />
+            <div className="mb-[5px] font-bold text-xl"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
           </div>
         </div>
       </div>
 
-      <div className="body-container">
-        <div className="res-container">
-          <div className="res-card">
-            <img className="res-image" />
-            <div className="res-name"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
+
+      <div className="mt-2 p-2">
+        <div className="mt-[10px] flex flex-wrap gap-[20px]">
+          <div className="bg-[#f5f5f5] border border-[#dcdcdc] w-70 h-95 p-[10px] rounded-2xl">
+            <img className="w-70 h-40" />
+            <div className="mb-[5px] font-bold text-xl"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
           </div>
         </div>
       </div>
 
-      <div className="body-container">
-        <div className="res-container">
-          <div className="res-card">
-            <img className="res-image" />
-            <div className="res-name"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
+
+      <div className="mt-2 p-2">
+        <div className="mt-[10px] flex flex-wrap gap-[20px]">
+          <div className="bg-[#f5f5f5] border border-[#dcdcdc] w-70 h-95 p-[10px] rounded-2xl">
+            <img className="w-70 h-40" />
+            <div className="mb-[5px] font-bold text-xl"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
           </div>
         </div>
       </div>
 
-      <div className="body-container">
-        <div className="res-container">
-          <div className="res-card">
-            <img className="res-image" />
-            <div className="res-name"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
+
+      <div className="mt-2 p-2">
+        <div className="mt-[10px] flex flex-wrap gap-[20px]">
+          <div className="bg-[#f5f5f5] border border-[#dcdcdc] w-70 h-95 p-[10px] rounded-2xl">
+            <img className="w-70 h-40" />
+            <div className="mb-[5px] font-bold text-xl"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
           </div>
         </div>
       </div>
 
-      <div className="body-container">
-        <div className="res-container">
-          <div className="res-card">
-            <img className="res-image" />
-            <div className="res-name"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
+
+      <div className="mt-2 p-2">
+        <div className="mt-[10px] flex flex-wrap gap-[20px]">
+          <div className="bg-[#f5f5f5] border border-[#dcdcdc] w-70 h-95 p-[10px] rounded-2xl">
+            <img className="w-70 h-40" />
+            <div className="mb-[5px] font-bold text-xl"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
           </div>
         </div>
       </div>
 
-      <div className="body-container">
-        <div className="res-container">
-          <div className="res-card">
-            <img className="res-image" />
-            <div className="res-name"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
+
+      <div className="mt-2 p-2">
+        <div className="mt-[10px] flex flex-wrap gap-[20px]">
+          <div className="bg-[#f5f5f5] border border-[#dcdcdc] w-70 h-95 p-[10px] rounded-2xl">
+            <img className="w-70 h-40" />
+            <div className="mb-[5px] font-bold text-xl"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
           </div>
         </div>
       </div>
 
-      <div className="body-container">
-        <div className="res-container">
-          <div className="res-card">
-            <img className="res-image" />
-            <div className="res-name"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
+
+      <div className="mt-2 p-2">
+        <div className="mt-[10px] flex flex-wrap gap-[20px]">
+          <div className="bg-[#f5f5f5] border border-[#dcdcdc] w-70 h-95 p-[10px] rounded-2xl">
+            <img className="w-70 h-40" />
+            <div className="mb-[5px] font-bold text-xl"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
           </div>
         </div>
       </div>
 
-      <div className="body-container">
-        <div className="res-container">
-          <div className="res-card">
-            <img className="res-image" />
-            <div className="res-name"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
-            <div className="res-description"></div>
+
+      <div className="mt-2 p-2">
+        <div className="mt-[10px] flex flex-wrap gap-[20px]">
+          <div className="bg-[#f5f5f5] border border-[#dcdcdc] w-70 h-95 p-[10px] rounded-2xl">
+            <img className="w-70 h-40" />
+            <div className="mb-[5px] font-bold text-xl"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
+            <div className="mb-[5px] text-base"></div>
           </div>
         </div>
       </div>
+
 
 
     </div>

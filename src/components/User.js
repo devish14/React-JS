@@ -48,15 +48,15 @@ class User extends React.Component {
 
     console.log("Child render");
     return (
-      <div className="user-container">
-        <h2>Welcome to Food Delivery</h2>
-        <div className="user-text">
+      <div className="">
+        <h2 className="text-lg/7 font-extrabold mb-[10px]">Welcome to Food Delivery</h2>
+        <div className="border border-[lightcoral] p-[10px] flex flex-col gap-[15px] items-start w-70">
           <div>Name: {login}</div>
           <div>Location: {html_url}</div>
           <img
             src="https://avatars.githubusercontent.com/u/195868891?v=4"
             alt="Avatar image"
-            className="img-align"
+            className="w-30 h-20"
           ></img>
 
           {/* Here we use set state is used to update the state variable 

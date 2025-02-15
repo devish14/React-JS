@@ -32,19 +32,19 @@ export const BodyComponent = () => {
   return restLists.length === 0 ? (
     <Shimmer />
   ) : (
-    <div className="body-container">
-      <div className="body-wrapper">
-        <div className="search-bar">
+    <div className="mt-2 p-2">
+      <div className="flex mb-5">
+        <div className="flex">
           <input
             type="text"
-            className="search-type"
+            className="p-[2px] border border-black-600 outline-none"
             value={searchType}
             onChange={(e) => {
               setSearchType(e.target.value);
             }}
           />
           <button
-            className="button-search"
+            className="mr-2 px-2 bg-green-200"
             onClick={() => {
               // here i am using restLists to filter the data and set the filtered data to the state variable filteredRestLists becoz in restLists i will get all the
               // restaurtants details and in filteredRestLists i will get only the filtered data. This filteredData is a copy of the restLists and i am filtering the data based on the searchType
@@ -60,9 +60,9 @@ export const BodyComponent = () => {
             Search
           </button>
         </div>
-        <div className="button-align">
+        <div className="">
           <button
-            className="button1"
+            className="bg-pink-200 outline-none px-3 py-2 text-base"
             onClick={() => {
               const filterdValue = restLists.filter((element) => {
                 console.log(element);
@@ -76,7 +76,7 @@ export const BodyComponent = () => {
         </div>
       </div>
 
-      <div className="res-container">
+      <div className="mt-[10px] flex flex-wrap gap-[20px]">
         {/* here i am using the filteredRestLists to map the data and pass the data to the RestaurantCard component insted of RestLists becoz filteredRestLists
       has a copy of RestLists and RestLists will not be changes on any filtered value */}
 
@@ -84,7 +84,7 @@ export const BodyComponent = () => {
           return (
             <Link
               key={element?.card?.card?.info?.id}
-              className="link-align"
+              className="no-underline block text-inherit hover:no-underline"
               to={`/restaurants/${element?.card?.card?.info?.id}`}
             >
               {" "}
