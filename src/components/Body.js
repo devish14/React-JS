@@ -1,10 +1,10 @@
 // RestaurantCard component is imported and used in the BodyComponent and it is a default export
 
-import RestaurantCard from "./Restaurant-Card.js";
+import RestaurantCard, { WithDiscountLabel } from "./Restaurant-Card.js";
 
 import { restaurantList } from "../utils/mockData.js";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 
 import Shimmer from "./Shimmer.js";
 
@@ -14,21 +14,26 @@ import useOnlineStatus from "../utils/useStatusOnline.js";
 
 import useRestaurantLists from "../utils/useRestaurantLists.js";
 
+import UserContext from "../utils/UserContext";
+
 export const BodyComponent = () => {
-  console.log("Body rendered");
 
   const [searchType, setSearchType] = useState("");
+
 
   // Custom hook is used here
 
   const { restLists, filteredRestLists, setFilteredRestLists } =
     useRestaurantLists();
 
+  // Assigning const variable for the Higher order function and returning the input value componnet
+  const DiscountLabel = WithDiscountLabel(RestaurantCard);
+
   const onlineStatus = useOnlineStatus();
   if (onlineStatus === false) {
     return <h1>You're offline. Check your Connection</h1>;
   }
-
+const {loggedInUser, setUserInfo} = useContext(UserContext);
   return restLists.length === 0 ? (
     <Shimmer />
   ) : (
@@ -60,12 +65,11 @@ export const BodyComponent = () => {
             Search
           </button>
         </div>
-        <div className="">
+        <div className="mr-2">
           <button
             className="bg-pink-200 outline-none px-3 py-2 text-base"
             onClick={() => {
               const filterdValue = restLists.filter((element) => {
-                console.log(element);
                 return element?.card?.card?.info?.avgRating > 4;
               });
               setFilteredRestLists(filterdValue);
@@ -73,6 +77,16 @@ export const BodyComponent = () => {
           >
             Top Rated Restaurant
           </button>
+        </div>
+        <div className="">
+          <input
+            type="text"
+            value={loggedInUser}
+            className="p-[7px] border border-black-600 outline-none"
+           onChange={(e)=>{
+            return setUserInfo(e.target.value)
+           }}
+          />
         </div>
       </div>
 
@@ -87,8 +101,12 @@ export const BodyComponent = () => {
               className="no-underline block text-inherit hover:no-underline"
               to={`/restaurants/${element?.card?.card?.info?.id}`}
             >
-              {" "}
-              <RestaurantCard resData={element} />
+              {/* Here we will be implementing higher order function with a discount label */}
+              {(element?.card?.card?.info?.aggregatedDiscountInfoV3?.header === "15% OFF")  || (element?.card?.card?.info?.aggregatedDiscountInfoV3?.header === "20% OFF")? (
+                <DiscountLabel resData={element} />
+              ) : (
+                <RestaurantCard resData={element} />
+              )}
             </Link>
           );
         })}

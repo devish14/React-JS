@@ -2,20 +2,22 @@
 
 // IMPORTING named export LOGO_URL from config.js using {LOGO_URL}
 
-import { useState } from "react";
+import { useContext, useState } from "react";
 
 import { LOGO_URL } from "../utils/config";
 
 // using Font Awesome icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareCheck, faCircle } from "@fortawesome/free-solid-svg-icons";
-
 import { Link } from "react-router";
 import useOnlineStatus from "../utils/useStatusOnline";
+import UserContext from "../utils/UserContext";
 
 const HeaderComponent = () => {
   const [buttonName, setButtonName] = useState("Login");
   const onlineStatus = useOnlineStatus();
+  const userData = useContext(UserContext);
+  
   return (
     <div className="flex justify-between border border-black-600 items-center ">
       <div className="">
@@ -23,13 +25,13 @@ const HeaderComponent = () => {
       </div>
       <div className="">
         <ul className="flex justify-between text-lg font-serif">
-        <li className="p-2 m-1">
-      Online Status: {" "}
-      <FontAwesomeIcon
-        icon={onlineStatus ? faSquareCheck : faCircle}
-        style={{ color: onlineStatus ? "green" : "red" }} // ✅ Changes color dynamically
-      />
-    </li>
+          <li className="p-2 m-1">
+            Online Status:{" "}
+            <FontAwesomeIcon
+              icon={onlineStatus ? faSquareCheck : faCircle}
+              style={{ color: onlineStatus ? "green" : "red" }} // ✅ Changes color dynamically
+            />
+          </li>
           <li className="p-2 m-1">
             {/* Link is used for route navigation without refreshing or reloading the whole page */}
             <Link to="/">Home</Link>
@@ -54,6 +56,7 @@ const HeaderComponent = () => {
               {buttonName}
             </button>
           </li>
+          <li className="p-2 m-1">{userData.loggedInUser}</li>
         </ul>
       </div>
     </div>
