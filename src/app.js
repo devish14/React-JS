@@ -7,6 +7,8 @@ import { createBrowserRouter, Outlet, RouterProvider } from "react-router";
 import Contact from "./components/Contact.js";
 import Error from "./components/Error.js";
 import RestaurantMenu from "./components/Restaurant-Menu.js";
+import { Provider } from "react-redux";
+import AppStore from "./utils/appStore"
 import UserContext from "./utils/UserContext";
 //  making about as a lazy loaded module , we are using suspense to wrap the Lazy loaded component
 
@@ -34,7 +36,8 @@ const AppLayout = () => {
   // Passing setUserInfo to access the live data in the input box adding this here i can access it from anywhere
 
   return (
-    <UserContext.Provider value={{ loggedInUser: userInfo, setUserInfo }}>
+    <Provider store={AppStore}>
+      <UserContext.Provider value={{ loggedInUser: userInfo, setUserInfo }}>
       <div className="">
         <UserContext.Provider value={{ loggedInUser: "Krishiv" }}>
           <HeaderComponent />
@@ -43,7 +46,8 @@ const AppLayout = () => {
         <Outlet />
       </div>
     </UserContext.Provider>
-  );
+    </Provider>
+  ); 
 };
 
 const appRouter = createBrowserRouter([

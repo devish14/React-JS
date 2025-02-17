@@ -12,12 +12,15 @@ import { faSquareCheck, faCircle } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router";
 import useOnlineStatus from "../utils/useStatusOnline";
 import UserContext from "../utils/UserContext";
+import { useSelector } from "react-redux";
 
 const HeaderComponent = () => {
   const [buttonName, setButtonName] = useState("Login");
   const onlineStatus = useOnlineStatus();
   const userData = useContext(UserContext);
-  
+  const cartItems = useSelector((store) => {
+    console.log(store);
+  });
   return (
     <div className="flex justify-between border border-black-600 items-center ">
       <div className="">
@@ -42,7 +45,7 @@ const HeaderComponent = () => {
           <li className="p-2 m-1">
             <Link to="/contact">Contact</Link>
           </li>
-          <li className="p-2 m-1">Cart</li>
+          <li className="p-2 m-1">Cart (0 Items)</li>
           <li className="p-2 m-1">
             <button
               className="px-4 bg-[rgb(33,157,207)]"
