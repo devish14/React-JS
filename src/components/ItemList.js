@@ -1,13 +1,33 @@
+import { useDispatch } from "react-redux";
 import { SINGLE_IMAGE } from "../utils/config.js";
+import { addItem } from "../utils/cartSlice";
 
 const ItemLists = (props) => {
   const { responseItems } = props;
+
+  // Using useDispatch () to dispatch
+  const dispatch = useDispatch();
+
+  // handleAddClick is the action reducer function used to dispatch the action this is dummy data i am passing
+
+  // const handleAddClick = () => {
+  //   dispatch(addItem("Pizza"));
+  // };
+
+  // getting the real time data by passing a args
+
+  const handleAddClick = (item) => {
+    dispatch(addItem(item));
+  };
 
   return (
     <div>
       {responseItems.map((item) => {
         return (
-          <div className="flex justify-between border-b-[0.5px] border-b-[#d3d3d3]" key={item.card.info?.id}>
+          <div
+            className="flex justify-between border-b-[0.5px] border-b-[#d3d3d3]"
+            key={item.card.info?.id}
+          >
             <div className="mb-[40px] ">
               <div className="text-lg/7 text-[rgba(2,6,12,0.75)] mt-[4px] font-bold">
                 {item?.card?.info?.name}
@@ -51,7 +71,10 @@ const ItemLists = (props) => {
             </div>
             <div className="relative w-[150px] h-[130px]">
               {/* Add Button - Positioned Consistently */}
-              <div className="absolute font-bold bottom-5 left-6 text-[rgb(27,166,114)] bg-[#02060cbf] px-3 rounded-lg w-15 text-center">
+              <div
+                className="absolute font-bold bottom-5 left-6 text-[rgb(27,166,114)] bg-[#02060cbf] px-3 rounded-lg w-15 text-center"
+                onClick={() => handleAddClick(item)}
+              >
                 Add
               </div>
 

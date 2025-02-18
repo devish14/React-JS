@@ -3,6 +3,7 @@
 // IMPORTING named export LOGO_URL from config.js using {LOGO_URL}
 
 import { useContext, useState } from "react";
+import { useSelector } from "react-redux";
 
 import { LOGO_URL } from "../utils/config";
 
@@ -12,15 +13,17 @@ import { faSquareCheck, faCircle } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router";
 import useOnlineStatus from "../utils/useStatusOnline";
 import UserContext from "../utils/UserContext";
-import { useSelector } from "react-redux";
 
 const HeaderComponent = () => {
   const [buttonName, setButtonName] = useState("Login");
   const onlineStatus = useOnlineStatus();
   const userData = useContext(UserContext);
-  const cartItems = useSelector((store) => {
-    console.log(store);
-  });
+
+  // Using the selector for subscribing the data so any change in the store here value gets updated automatically
+
+  const storeState = useSelector((store) => store.cartName.items); // Debugging entire store
+  console.log("Full Redux Store:", storeState);
+
   return (
     <div className="flex justify-between border border-black-600 items-center ">
       <div className="">
@@ -45,7 +48,9 @@ const HeaderComponent = () => {
           <li className="p-2 m-1">
             <Link to="/contact">Contact</Link>
           </li>
-          <li className="p-2 m-1">Cart (0 Items)</li>
+          <li className="p-2 m-1">
+            <Link to={"/cart"}>Cart ({storeState.length} Items)</Link>
+          </li>
           <li className="p-2 m-1">
             <button
               className="px-4 bg-[rgb(33,157,207)]"

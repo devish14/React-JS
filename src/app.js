@@ -8,8 +8,9 @@ import Contact from "./components/Contact.js";
 import Error from "./components/Error.js";
 import RestaurantMenu from "./components/Restaurant-Menu.js";
 import { Provider } from "react-redux";
-import AppStore from "./utils/appStore"
+import AppStore from "./utils/appStore";
 import UserContext from "./utils/UserContext";
+import Cart from "./components/Cart";
 //  making about as a lazy loaded module , we are using suspense to wrap the Lazy loaded component
 
 // -  bg-yellow-200 sm:bg-pink-400 md:bg-amber-600  lg:bg-green-500 xl:bg-blue-400 (media queries)
@@ -38,16 +39,16 @@ const AppLayout = () => {
   return (
     <Provider store={AppStore}>
       <UserContext.Provider value={{ loggedInUser: userInfo, setUserInfo }}>
-      <div className="">
-        <UserContext.Provider value={{ loggedInUser: "Krishiv" }}>
-          <HeaderComponent />
-        </UserContext.Provider>
-        {/* We are keeping the header component intact so using a child route and using OUTLET  */}
-        <Outlet />
-      </div>
-    </UserContext.Provider>
+        <div className="">
+          <UserContext.Provider value={{ loggedInUser: "Krishiv" }}>
+            <HeaderComponent />
+          </UserContext.Provider>
+          {/* We are keeping the header component intact so using a child route and using OUTLET  */}
+          <Outlet />
+        </div>
+      </UserContext.Provider>
     </Provider>
-  ); 
+  );
 };
 
 const appRouter = createBrowserRouter([
@@ -71,6 +72,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
       },
       {
         path: "/restaurants/:id",

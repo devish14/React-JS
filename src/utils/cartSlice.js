@@ -3,7 +3,8 @@ import { createSlice } from "@reduxjs/toolkit";
 const CartSlice = createSlice({
   name: "cart",
   initialState: {
-    items: ["pizza","burger", "KFC"],
+    // This items will hold the reducers function array value where we can push pop everything
+    items: [],
   },
   reducers: {
     addItem: (state, action) => {
