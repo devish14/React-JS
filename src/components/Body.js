@@ -37,11 +37,12 @@ const {loggedInUser, setUserInfo} = useContext(UserContext);
   return restLists.length === 0 ? (
     <Shimmer />
   ) : (
-    <div className="mt-2 p-2">
+    <div className="mt-2 p-2" >
       <div className="flex mb-5">
         <div className="flex">
           <input
             type="text"
+            data-testid="searchInput"
             className="p-[2px] border border-black-600 outline-none"
             value={searchType}
             onChange={(e) => {

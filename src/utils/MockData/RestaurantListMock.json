@@ -1,0 +1,881 @@
+{
+    "statusCode": 0,
+    "data": {
+      "statusMessage": "done successfully",
+      "cards": [
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.CollectionMasthead",
+              "collectionId": "80424",
+              "title": "Dosa",
+              "description": "Satisfy your cravings for South Indian breakfast with these crispy & buttery Dosas.",
+              "imageId": "COLLECTIONS/IMAGES/MERCH/2024/7/2/f14add80-0688-4ec5-b436-450e5207091b_pic",
+              "aspectRatio": "3.44",
+              "cta": {
+                "link": "swiggy://collectionV2?collection_id=80424&tags=layout_CCS_Dosa,ads_pc_dosa,dosa,layout_BAU_Contextual",
+                "type": "collectionv2"
+              },
+              "type": "COLLECTION_MASTHEAD_TYPE_IMAGE_WITH_TEXT",
+              "count": "7 restaurants"
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.InlineViewFilterSortWidget",
+              "sortConfigs": [
+                {
+                  "key": "relevance",
+                  "title": "Relevance (Default)",
+                  "selected": true,
+                  "defaultSelection": true
+                },
+                {
+                  "key": "deliveryTimeAsc",
+                  "title": "Delivery Time"
+                },
+                {
+                  "key": "modelBasedRatingDesc",
+                  "title": "Rating"
+                },
+                {
+                  "key": "costForTwoAsc",
+                  "title": "Cost: Low to High"
+                },
+                {
+                  "key": "costForTwoDesc",
+                  "title": "Cost: High to Low"
+                }
+              ],
+              "restaurantCount": 7,
+              "facetList": [
+                {
+                  "label": "10 Mins Delivery",
+                  "id": "isRestaurantBolt",
+                  "selection": "SELECT_TYPE_SINGLESELECT",
+                  "facetInfo": [
+                    {
+                      "label": "10 Mins Delivery",
+                      "id": "isRestaurantBoltfacetquery0",
+                      "analytics": {},
+                      "openFilter": true
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_FLATTENED",
+                  "subLabel": "Filterby",
+                  "icon": "COLLECTIONS/IMAGES/MERCH/2024/12/18/4b2e8903-0e25-401b-8ede-088491b4cfa0_937977a3-b03b-4a9e-8b6a-24937664d1a9_pic.png"
+                },
+                {
+                  "label": "Veg/Non-Veg",
+                  "id": "isVeg",
+                  "selection": "SELECT_TYPE_MULTISELECT",
+                  "facetInfo": [
+                    {
+                      "label": "Non Veg",
+                      "id": "isVegfacetquery0",
+                      "analytics": {},
+                      "openFilter": true
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_HALF_CARD",
+                  "subLabel": "Filterby",
+                  "openFilter": true
+                },
+                {
+                  "label": "Ratings",
+                  "id": "rating",
+                  "selection": "SELECT_TYPE_MULTISELECT",
+                  "facetInfo": [
+                    {
+                      "label": "Ratings",
+                      "id": "ratingfacetquery0",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Ratings 4.0+",
+                      "id": "ratingfacetquery1",
+                      "analytics": {},
+                      "openFilter": true
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_HALF_CARD",
+                  "subLabel": "Filterby",
+                  "openFilter": true
+                },
+                {
+                  "label": "Delivery Time",
+                  "id": "deliveryTime",
+                  "selection": "SELECT_TYPE_MULTISELECT",
+                  "facetInfo": [
+                    {
+                      "label": "Less than 30 mins",
+                      "id": "deliveryTimefacetquery0",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Less than 45 mins",
+                      "id": "deliveryTimefacetquery1",
+                      "analytics": {},
+                      "openFilter": true
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_HALF_CARD",
+                  "subLabel": "Filterby",
+                  "openFilter": true
+                },
+                {
+                  "label": "Cost For Two",
+                  "id": "costForTwo",
+                  "selection": "SELECT_TYPE_MULTISELECT",
+                  "facetInfo": [
+                    {
+                      "label": "Less than Rs. 300",
+                      "id": "costForTwofacetquery0",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Rs.300 - Rs.600",
+                      "id": "costForTwofacetquery1",
+                      "analytics": {},
+                      "openFilter": true
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_HALF_CARD",
+                  "subLabel": "Filterby",
+                  "openFilter": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+              "layout": {
+                "rows": 1,
+                "widgetPadding": {
+                  "left": 16,
+                  "right": 16
+                },
+                "scrollBar": {},
+                "widgetTheme": {
+                  "defaultMode": {
+                    "backgroundColour": "#FFFFFF",
+                    "theme": "THEME_TYPE_LIGHT"
+                  },
+                  "darkMode": {
+                    "backgroundColour": "#1B3028",
+                    "theme": "THEME_TYPE_DARK"
+                  }
+                }
+              },
+              "id": "restaurantCountWidget",
+              "gridElements": {
+                "infoWithStyle": {
+                  "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                  "text": "Restaurants to explore",
+                  "headerStyling": {
+                    "textSize": 15,
+                    "textColor": "text_color_highest_emphasis",
+                    "textFontName": "FONT_NAME_HEADER_H5",
+                    "maxLines": 1
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+              "info": {
+                "id": "35186",
+                "name": "Savoury Restaurant",
+                "cloudinaryImageId": "1d8bc279f3cfa15285016307258eacf3",
+                "locality": "1st Stage",
+                "areaName": "Btm Layout",
+                "costForTwo": "₹450 for two",
+                "cuisines": [
+                  "Arabian",
+                  "Indian",
+                  "Chinese",
+                  "Tandoor",
+                  "Biryani",
+                  "Seafood",
+                  "Kerala"
+                ],
+                "avgRating": 4.3,
+                "parentId": "179209",
+                "avgRatingString": "4.3",
+                "totalRatingsString": "28K+",
+                "sla": {
+                  "deliveryTime": 24,
+                  "lastMileTravel": 2,
+                  "serviceability": "SERVICEABLE",
+                  "slaString": "20-25 mins",
+                  "lastMileTravelString": "2.0 km",
+                  "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                  "nextCloseTime": "2025-03-01 00:00:00",
+                  "opened": true
+                },
+                "badges": {
+                  "imageBadges": [
+                    {
+                      "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                      "description": "bolt!"
+                    }
+                  ]
+                },
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                  "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {
+                      "badgeObject": [
+                        {
+                          "attributes": {
+                            "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                            "description": "bolt!"
+                          }
+                        }
+                      ]
+                    },
+                    "textExtendedBadges": {}
+                  }
+                },
+                "aggregatedDiscountInfoV3": {
+                  "header": "20% OFF",
+                  "subHeader": "UPTO ₹50",
+                  "logoCtx": {
+                    "text": "BENEFITS"
+                  }
+                },
+                "orderabilityCommunication": {
+                  "title": {},
+                  "subTitle": {},
+                  "message": {},
+                  "customIcon": {},
+                  "commsStyling": {}
+                },
+                "differentiatedUi": {
+                  "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                  "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                  }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {},
+                "externalRatings": {
+                  "aggregatedRating": {
+                    "rating": "--"
+                  }
+                },
+                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+              },
+              "analytics": {},
+              "cta": {
+                "link": "swiggy://menu?restaurant_id=35186&source=collection&query=Dosa",
+                "text": "RESTAURANT_MENU",
+                "type": "DEEPLINK"
+              },
+              "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+            },
+            "relevance": {
+              "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+              "sectionId": "MENU_RETURN_FOOD"
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+              "info": {
+                "id": "337335",
+                "name": "Kannur food kitchen",
+                "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/25/0bb5f9af-b46e-4b86-bcad-4158b65da5e8_95236100-12ad-4c5b-ab28-4455f6e5b41a.JPG",
+                "locality": "1st  Stage",
+                "areaName": "BTM Layout",
+                "costForTwo": "₹200 for two",
+                "cuisines": [
+                  "Kerala",
+                  "Biryani",
+                  "Beverages"
+                ],
+                "avgRating": 4.2,
+                "parentId": "114756",
+                "avgRatingString": "4.2",
+                "totalRatingsString": "21K+",
+                "sla": {
+                  "deliveryTime": 22,
+                  "lastMileTravel": 2.8,
+                  "serviceability": "SERVICEABLE",
+                  "slaString": "20-25 mins",
+                  "lastMileTravelString": "2.8 km",
+                  "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                  "nextCloseTime": "2025-02-23 04:00:00",
+                  "opened": true
+                },
+                "badges": {
+                  "textExtendedBadges": [
+                    {
+                      "iconId": "guiltfree/GF_Logo_android_3x",
+                      "shortDescription": "options available",
+                      "fontColor": "#7E808C"
+                    }
+                  ]
+                },
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                  "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {
+                      "badgeObject": [
+                        {
+                          "attributes": {
+                            "fontColor": "#7E808C",
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "description": "",
+                            "shortDescription": "options available"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                "aggregatedDiscountInfoV3": {
+                  "header": "50% OFF",
+                  "discountTag": "FLAT DEAL",
+                  "logoCtx": {
+                    "text": "BENEFITS"
+                  }
+                },
+                "orderabilityCommunication": {
+                  "title": {},
+                  "subTitle": {},
+                  "message": {},
+                  "customIcon": {},
+                  "commsStyling": {}
+                },
+                "differentiatedUi": {
+                  "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                  "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                  }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {},
+                "externalRatings": {
+                  "aggregatedRating": {
+                    "rating": "--"
+                  }
+                },
+                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+              },
+              "analytics": {},
+              "cta": {
+                "link": "swiggy://menu?restaurant_id=337335&source=collection&query=Dosa",
+                "text": "RESTAURANT_MENU",
+                "type": "DEEPLINK"
+              },
+              "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+            },
+            "relevance": {
+              "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+              "sectionId": "MENU_RETURN_FOOD"
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+              "info": {
+                "id": "864767",
+                "name": "Sunshine Cafe",
+                "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/4e750db9-2648-4f73-8591-7039e10a2638_ef97da7e-b389-42ce-8449-03c61d920bc3.jpg",
+                "locality": "Old Madiwala",
+                "areaName": "BTM",
+                "costForTwo": "₹138 for two",
+                "cuisines": [
+                  "Beverages",
+                  "Juices",
+                  "Salads"
+                ],
+                "avgRating": 3.8,
+                "parentId": "197304",
+                "avgRatingString": "3.8",
+                "totalRatingsString": "52",
+                "sla": {
+                  "deliveryTime": 37,
+                  "lastMileTravel": 2.4,
+                  "serviceability": "SERVICEABLE",
+                  "slaString": "35-40 mins",
+                  "lastMileTravelString": "2.4 km",
+                  "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                  "nextCloseTime": "2025-02-23 23:59:00",
+                  "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                  "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                  }
+                },
+                "aggregatedDiscountInfoV3": {
+                  "header": "40% OFF",
+                  "subHeader": "UPTO ₹80",
+                  "logoCtx": {
+                    "text": "BENEFITS"
+                  }
+                },
+                "orderabilityCommunication": {
+                  "title": {},
+                  "subTitle": {},
+                  "message": {},
+                  "customIcon": {},
+                  "commsStyling": {}
+                },
+                "differentiatedUi": {
+                  "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                  "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                  }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {},
+                "externalRatings": {
+                  "aggregatedRating": {
+                    "rating": "--"
+                  }
+                },
+                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+              },
+              "analytics": {},
+              "cta": {
+                "link": "swiggy://menu?restaurant_id=864767&source=collection&query=Dosa",
+                "text": "RESTAURANT_MENU",
+                "type": "DEEPLINK"
+              },
+              "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+            },
+            "relevance": {
+              "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+              "sectionId": "MENU_RETURN_FOOD"
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+              "info": {
+                "id": "371178",
+                "name": "Mallu family Restaurant",
+                "cloudinaryImageId": "twhsskeixjvv6kxwbutr",
+                "locality": "Chocolate Factory Road",
+                "areaName": "Btm Layout",
+                "costForTwo": "₹200 for two",
+                "cuisines": [
+                  "Kerala",
+                  "Chinese",
+                  "Arabian",
+                  "South Indian"
+                ],
+                "avgRating": 3.9,
+                "parentId": "130930",
+                "avgRatingString": "3.9",
+                "totalRatingsString": "876",
+                "sla": {
+                  "deliveryTime": 20,
+                  "lastMileTravel": 2.8,
+                  "serviceability": "SERVICEABLE",
+                  "slaString": "20-25 mins",
+                  "lastMileTravelString": "2.8 km",
+                  "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                  "nextCloseTime": "2025-02-23 04:00:00",
+                  "opened": true
+                },
+                "badges": {
+                  "textExtendedBadges": [
+                    {
+                      "iconId": "guiltfree/GF_Logo_android_3x",
+                      "shortDescription": "options available",
+                      "fontColor": "#7E808C"
+                    }
+                  ]
+                },
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                  "entityBadges": {
+                    "imageBased": {},
+                    "textExtendedBadges": {
+                      "badgeObject": [
+                        {
+                          "attributes": {
+                            "shortDescription": "options available",
+                            "fontColor": "#7E808C",
+                            "iconId": "guiltfree/GF_Logo_android_3x",
+                            "description": ""
+                          }
+                        }
+                      ]
+                    },
+                    "textBased": {}
+                  }
+                },
+                "aggregatedDiscountInfoV3": {
+                  "header": "30% OFF",
+                  "discountTag": "FLAT DEAL",
+                  "logoCtx": {
+                    "text": "BENEFITS"
+                  }
+                },
+                "orderabilityCommunication": {
+                  "title": {},
+                  "subTitle": {},
+                  "message": {},
+                  "customIcon": {},
+                  "commsStyling": {}
+                },
+                "differentiatedUi": {
+                  "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                  "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                  }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {},
+                "externalRatings": {
+                  "aggregatedRating": {
+                    "rating": "--"
+                  }
+                },
+                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+              },
+              "analytics": {},
+              "cta": {
+                "link": "swiggy://menu?restaurant_id=371178&source=collection&query=Dosa",
+                "text": "RESTAURANT_MENU",
+                "type": "DEEPLINK"
+              },
+              "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+            },
+            "relevance": {
+              "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+              "sectionId": "MENU_RETURN_FOOD"
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+              "info": {
+                "id": "5361",
+                "name": "Bekal",
+                "cloudinaryImageId": "bqhzfggvtogauu0mqnlz",
+                "locality": "Jeevan Bhima Nagar",
+                "areaName": "Jeevanbhimanagar",
+                "costForTwo": "₹400 for two",
+                "cuisines": [
+                  "Kerala",
+                  "Mangalorean",
+                  "South Indian",
+                  "Chinese",
+                  "Desserts"
+                ],
+                "avgRating": 4.2,
+                "parentId": "43109",
+                "avgRatingString": "4.2",
+                "totalRatingsString": "24K+",
+                "sla": {
+                  "deliveryTime": 33,
+                  "lastMileTravel": 6.3,
+                  "serviceability": "SERVICEABLE",
+                  "slaString": "30-35 mins",
+                  "lastMileTravelString": "6.3 km",
+                  "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                  "nextCloseTime": "2025-03-01 00:00:00",
+                  "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                  "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                  }
+                },
+                "aggregatedDiscountInfoV3": {
+                  "header": "ITEMS",
+                  "subHeader": "AT ₹49",
+                  "logoCtx": {
+                    "text": "BENEFITS"
+                  }
+                },
+                "orderabilityCommunication": {
+                  "title": {},
+                  "subTitle": {},
+                  "message": {},
+                  "customIcon": {},
+                  "commsStyling": {}
+                },
+                "differentiatedUi": {
+                  "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                  "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                  }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {},
+                "externalRatings": {
+                  "aggregatedRating": {
+                    "rating": "3.9",
+                    "ratingCount": "1.5K+"
+                  },
+                  "source": "GOOGLE",
+                  "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                },
+                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+              },
+              "analytics": {},
+              "cta": {
+                "link": "swiggy://menu?restaurant_id=5361&source=collection&query=Dosa",
+                "text": "RESTAURANT_MENU",
+                "type": "DEEPLINK"
+              },
+              "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+            },
+            "relevance": {
+              "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+              "sectionId": "MENU_RETURN_FOOD"
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+              "info": {
+                "id": "473719",
+                "name": "Tasty Kitchen",
+                "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/27/98691758-77fe-45ee-a85c-f35763266ad8_78557e23-370d-4cb5-9b9a-b400caf0cee3.JPG",
+                "locality": "Bommanahalli",
+                "areaName": "Begur",
+                "costForTwo": "₹120 for two",
+                "cuisines": [
+                  "Indian",
+                  "South Indian"
+                ],
+                "avgRating": 4.1,
+                "parentId": "8920",
+                "avgRatingString": "4.1",
+                "totalRatingsString": "565",
+                "sla": {
+                  "deliveryTime": 49,
+                  "lastMileTravel": 6.4,
+                  "serviceability": "SERVICEABLE",
+                  "slaString": "45-50 mins",
+                  "lastMileTravelString": "6.4 km",
+                  "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                  "nextCloseTime": "2025-03-01 00:00:00",
+                  "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                  "entityBadges": {
+                    "imageBased": {},
+                    "textExtendedBadges": {},
+                    "textBased": {}
+                  }
+                },
+                "aggregatedDiscountInfoV3": {
+                  "header": "15% OFF",
+                  "subHeader": "UPTO ₹80",
+                  "logoCtx": {
+                    "text": "BENEFITS"
+                  }
+                },
+                "orderabilityCommunication": {
+                  "title": {},
+                  "subTitle": {},
+                  "message": {},
+                  "customIcon": {},
+                  "commsStyling": {}
+                },
+                "differentiatedUi": {
+                  "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                  "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                  }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {},
+                "externalRatings": {
+                  "aggregatedRating": {
+                    "rating": "--"
+                  }
+                },
+                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+              },
+              "analytics": {},
+              "cta": {
+                "link": "swiggy://menu?restaurant_id=473719&source=collection&query=Dosa",
+                "text": "RESTAURANT_MENU",
+                "type": "DEEPLINK"
+              },
+              "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+            },
+            "relevance": {
+              "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+              "sectionId": "MENU_RETURN_FOOD"
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+              "info": {
+                "id": "530473",
+                "name": "Madurai Biriyani Virundhu",
+                "cloudinaryImageId": "5bc483291cc49fe9b1eca0009d483996",
+                "locality": "Bangalore Urban, Karnataka",
+                "areaName": "Kudla",
+                "costForTwo": "₹200 for two",
+                "cuisines": [
+                  "Biryani",
+                  "Chettinad",
+                  "South Indian"
+                ],
+                "avgRating": 3.4,
+                "parentId": "319325",
+                "avgRatingString": "3.4",
+                "totalRatingsString": "394",
+                "sla": {
+                  "deliveryTime": 33,
+                  "lastMileTravel": 7.2,
+                  "serviceability": "SERVICEABLE",
+                  "slaString": "30-35 mins",
+                  "lastMileTravelString": "7.2 km",
+                  "iconType": "ICON_TYPE_EMPTY"
+                },
+                "availability": {
+                  "nextCloseTime": "2025-02-23 23:59:00",
+                  "opened": true
+                },
+                "badges": {},
+                "isOpen": true,
+                "type": "F",
+                "badgesV2": {
+                  "entityBadges": {
+                    "textBased": {},
+                    "imageBased": {},
+                    "textExtendedBadges": {}
+                  }
+                },
+                "aggregatedDiscountInfoV3": {
+                  "header": "20% OFF",
+                  "subHeader": "UPTO ₹120",
+                  "logoCtx": {
+                    "text": "BENEFITS"
+                  }
+                },
+                "orderabilityCommunication": {
+                  "title": {},
+                  "subTitle": {},
+                  "message": {},
+                  "customIcon": {},
+                  "commsStyling": {}
+                },
+                "differentiatedUi": {
+                  "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                  "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                  }
+                },
+                "reviewsSummary": {},
+                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                "restaurantOfferPresentationInfo": {},
+                "externalRatings": {
+                  "aggregatedRating": {
+                    "rating": "--"
+                  }
+                },
+                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+              },
+              "analytics": {},
+              "cta": {
+                "link": "swiggy://menu?restaurant_id=530473&source=collection&query=Dosa",
+                "text": "RESTAURANT_MENU",
+                "type": "DEEPLINK"
+              },
+              "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+            },
+            "relevance": {
+              "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+              "sectionId": "MENU_RETURN_FOOD"
+            }
+          }
+        }
+      ],
+      "firstOffsetRequest": true,
+      "nextFetch": 3
+    },
+    "tid": "fc939516-9600-41f2-9396-6c6d4dec9e5f",
+    "sid": "j3fdfc4f-e840-4e47-9ef5-34f617431286",
+    "deviceId": "7aecd873-1d0a-d7f5-ee02-da05609de299",
+    "csrfToken": "dc0qSFflGIfc-yDwSr9w5lhRwy8ooNqllWv6dESo"
+  }

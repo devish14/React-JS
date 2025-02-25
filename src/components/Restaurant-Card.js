@@ -36,7 +36,7 @@ const RestaurantCard = (props) => {
   const userData =  useContext(UserContext);
 
   return (
-    <div className="bg-[#f5f5f5] border border-[#dcdcdc] w-70 h-95 p-[10px] rounded-2xl">
+    <div data-testid="restCard" className="bg-[#f5f5f5] border border-[#dcdcdc] w-70 h-95 p-[10px] rounded-2xl">
       <img className=" w-70 h-40" src={IMAGE_URL + cloudinaryImageId} />
       <div className="mb-[5px] font-bold text-xl">{name}</div>
       <div className="mb-[5px] text-base">{cuisines.join(", ")}</div>

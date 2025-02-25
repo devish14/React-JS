@@ -1,0 +1,1915 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                        "text": "Sunshine Cafe",
+                        "headerStyling": {
+                            "textColor": "text_Highest_Emphasis",
+                            "textVariant": "header_H3_Black"
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+                        "tabs": [
+                            {
+                                "id": "Order Online",
+                                "title": "Order Online"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "864767",
+                            "name": "Sunshine Cafe",
+                            "city": "Bangalore",
+                            "slugs": {
+                                "restaurant": "sunshine-cafe-btm-btm",
+                                "city": "bangalore"
+                            },
+                            "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/1/fc32edc2-14e5-447d-a741-3ba59d3b7d9e_864767.JPG",
+                            "locality": "Old Madiwala",
+                            "areaName": "BTM",
+                            "costForTwo": "13800",
+                            "costForTwoMessage": "₹138 for two",
+                            "cuisines": [
+                                "Beverages",
+                                "Juices"
+                            ],
+                            "avgRating": 3.8,
+                            "feeDetails": {
+                                "restaurantId": "864767",
+                                "fees": [
+                                    {}
+                                ]
+                            },
+                            "parentId": "197304",
+                            "avgRatingString": "3.8",
+                            "totalRatingsString": "52 ratings",
+                            "sla": {
+                                "restaurantId": "864767",
+                                "deliveryTime": 37,
+                                "minDeliveryTime": 35,
+                                "maxDeliveryTime": 40,
+                                "lastMileTravel": 2.4,
+                                "serviceability": "SERVICEABLE",
+                                "stressFactor": 1,
+                                "rainMode": "RAIN_MODE_NONE",
+                                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                                "zoneId": 4,
+                                "slaString": "35-40 MINS",
+                                "lastMileTravelString": "2.4 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2025-02-23 23:59:00",
+                                "visibility": true,
+                                "opened": true,
+                                "restaurantClosedMeta": {}
+                            },
+                            "aggregatedDiscountInfo": {
+                                "header": "40% off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "40% off | Use SPECIALS",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off | Use TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "40% off up to ₹80 on select items | Use code SPECIALS",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off up to ₹50 | Use code TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "visible": true
+                            },
+                            "badges": {},
+                            "slugString": "sunshine-cafe-btm-btm",
+                            "isOpen": true,
+                            "labels": [
+                                {
+                                    "title": "Timings",
+                                    "message": "null"
+                                },
+                                {
+                                    "title": "Address",
+                                    "message": "Shop No : no.8 , Floor : 3rd floor , Blue color building , Old Madiwala, Chikka Madivala, 1st Stage, BTM Layout, Bengaluru, Karnataka 560068, India 560068"
+                                },
+                                {
+                                    "title": "Cuisines",
+                                    "message": "Beverages,Juices"
+                                }
+                            ],
+                            "totalRatings": 52,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "40% off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "40% off | Use SPECIALS",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off | Use TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "40% off up to ₹80 on select items | Use code SPECIALS",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off up to ₹50 | Use code TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "couponDetailsCta": "View coupon details"
+                            },
+                            "type": "F",
+                            "nudgeBanners": [
+                                {
+                                    "minValue": 699,
+                                    "maxValue": 999,
+                                    "priority": 3,
+                                    "couponCode": "FLATDEAL",
+                                    "discountInfo": {
+                                        "discountType": "Flat",
+                                        "value": 200
+                                    },
+                                    "lockedMessage": "Add items worth ₹<amount> to save ₹200 | Code FLATDEAL",
+                                    "unlockedMessage": "FLATDEAL Coupon Unlocked! Use it to save ₹200",
+                                    "logoCtx": {}
+                                }
+                            ],
+                            "headerBanner": {
+                                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/864767"
+                            },
+                            "ratingSlab": "RATING_SLAB_4",
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "hasBestsellerItems": true,
+                            "cartOrderabilityNudgeBanner": {
+                                "parameters": {},
+                                "presentation": {}
+                            },
+                            "latLong": "12.922255664018506,77.6160973362457",
+                            "backgroundImageOverlayInfo": {},
+                            "featuredSectionInfo": {}
+                        },
+                        "analytics": {}
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+                        "sectionId": "POP_UP_CROUTON_MENU"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "columns": 5,
+                            "horizontalScrollEnabled": true,
+                            "itemSpacing": 12,
+                            "lineSpacing": 10,
+                            "widgetPadding": {},
+                            "containerStyle": {
+                                "containerPadding": {
+                                    "left": 10,
+                                    "right": 10,
+                                    "bottom": 16
+                                }
+                            },
+                            "scrollBar": {}
+                        },
+                        "id": "offerCollectionWidget_UX4",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                "offers": [
+                                    {
+                                        "info": {
+                                            "header": "40% OFF UPTO ₹80",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE SPECIALS",
+                                            "description": "ON SELECT ITEMS",
+                                            "offerType": "offers",
+                                            "restId": "864767",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE SPECIALS"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "20% OFF UPTO ₹50",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "799f3bd8-fd54-428a-9320-29afca43c845"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE TRYNEW",
+                                            "description": "ABOVE ₹159",
+                                            "offerType": "offers",
+                                            "restId": "864767",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE TRYNEW"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹200 OFF",
+                                            "offerTag": "FLAT DEAL",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "2257d03e-ffdf-4ad3-8903-3d4180f5477c"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE FLATDEAL",
+                                            "description": "ABOVE ₹999",
+                                            "offerType": "offers",
+                                            "restId": "864767",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE FLATDEAL"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "10% OFF UPTO ₹150",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/1/31/c1779f43-0cfd-4cc3-ab65-323a857b3327_HSBC.png",
+                                            "offerIds": [
+                                                "48e163e2-2bb4-43a2-afde-a1fbb5e280c0"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE HSBCFEST",
+                                            "description": "ABOVE ₹499",
+                                            "offerType": "offers",
+                                            "restId": "864767",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/1/31/c1779f43-0cfd-4cc3-ab65-323a857b3327_HSBC.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE HSBCFEST"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹50 OFF",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/21/a729c9e9-b3f8-4be8-8c79-5a9b298e967e_BHIMMenuVisibilityLogo.png",
+                                            "offerIds": [
+                                                "75122494-0b70-4c2c-be8d-f7f596f8f40d"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "NO CODE REQUIRED",
+                                            "description": "ABOVE ₹299",
+                                            "offerType": "offers",
+                                            "restId": "864767",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/21/a729c9e9-b3f8-4be8-8c79-5a9b298e967e_BHIMMenuVisibilityLogo.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "NO CODE REQUIRED"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    }
+                                ],
+                                "habitMilestoneInfo": {
+                                    "callout": {}
+                                },
+                                "loyaltyDiscoverPresentationInfo": {
+                                    "logoCtx": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "REGULAR": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                            "badges": {},
+                                            "vegOnlyDetails": {
+                                                "imageId": "AutoVegOnly_qkjowj",
+                                                "title": "Showing only vegetarian options.",
+                                                "description": "Tap on the VEG ONLY button to turn off the setting"
+                                            },
+                                            "offersFilter": {
+                                                "attributes": {
+                                                    "displayText": "40% OFF"
+                                                }
+                                            },
+                                            "topRatedFilter": {
+                                                "attributes": {
+                                                    "displayText": "Ratings 4.0+"
+                                                }
+                                            },
+                                            "kidsCategoryFilter": {
+                                                "attributes": {
+                                                    "displayText": "Kids Favourites",
+                                                    "tooltip": {
+                                                        "enabled": true,
+                                                        "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                    }
+                                                }
+                                            },
+                                            "vegFilter": {
+                                                "attributes": {
+                                                    "displayText": "VEG"
+                                                }
+                                            },
+                                            "nonvegFilter": {
+                                                "attributes": {
+                                                    "displayText": "NONVEG"
+                                                }
+                                            }
+                                        },
+                                        "relevance": {
+                                            "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                                            "sectionId": "MENU_FILTER_TOGGLE"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Breakfast",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139503323",
+                                                            "name": "Egg Dosa",
+                                                            "category": "Breakfast",
+                                                            "description": "A scrumptious breakfast option filled with delightful flavors and a perfect combination of textures.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/a1f17387-e1ac-472c-b3a6-1b1d023517b2_542ff14a-8440-40f7-bf56-4bf4685140f5.jpg",
+                                                            "inStock": 1,
+                                                            "price": 8900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.7",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139503321",
+                                                            "name": "Karam Dosa",
+                                                            "category": "Breakfast",
+                                                            "description": "A savory, crispy South Indian delight that will whisk you away to a breakfast paradise.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/4e750db9-2648-4f73-8591-7039e10a2638_ef97da7e-b389-42ce-8449-03c61d920bc3.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.5",
+                                                                    "ratingCount": "9 ratings",
+                                                                    "ratingCountV2": "9"
+                                                                }
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139503319",
+                                                            "name": "Plain Dosa",
+                                                            "category": "Breakfast",
+                                                            "description": "Delight your taste buds with this flavorful and savory breakfast option.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/bb85af93-7b1d-4fbc-8d97-62fd4abb6b50_a2a6ea66-fb9b-455d-90bc-ba009bbd0369.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 6900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139503327",
+                                                            "name": "Double Egg Dosa",
+                                                            "category": "Breakfast",
+                                                            "description": "A delectable and satisfying non-vegetarian breakfast option featuring a delectable fusion of eggs and dosa.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/75c58fbf-9af5-4dbc-b14a-29a5e79351f6_e2930d8e-993e-4d0d-ae65-ee9da153d784.jpg",
+                                                            "inStock": 1,
+                                                            "price": 10900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.2",
+                                                                    "ratingCount": "13 ratings",
+                                                                    "ratingCountV2": "13"
+                                                                }
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "144835797",
+                                                            "name": "Upma",
+                                                            "category": "Breakfast",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/1/8a188a1c-2974-4764-b2f1-ebef458cd81b_4ea51a1d-b562-49cf-b073-57ac061f13ce.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 8900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139503550",
+                                                            "name": "Onion Dosa",
+                                                            "category": "Breakfast",
+                                                            "description": "A delectable South Indian savory pancake filled with flavorsome onions, perfect for a delightful breakfast.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/219d395f-b7f4-49e1-b5ac-9efee93c2fe6_7e01d690-3922-44c8-9392-398568bc4bd3.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "2.0",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "146114502",
+                                                            "name": "Dosa",
+                                                            "category": "Breakfast",
+                                                            "description": "A vegan South Indian delight, perfect for breakfast with its crisp texture and flavorful filling.",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 6900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "145965707",
+                                                            "name": "Boiled Eggs(2 pcs)",
+                                                            "category": "Breakfast",
+                                                            "description": "Delicious breakfast boiled eggs served just the way you like them.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/15/566e8a92-7399-425e-9801-18455519139a_34fb4692-77b7-4190-8720-31d13dbb8882.jpg",
+                                                            "inStock": 1,
+                                                            "price": 5000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "145965777",
+                                                            "name": "Egg Bhurji",
+                                                            "category": "Breakfast",
+                                                            "description": "A flavorful and satisfying breakfast option with a perfect blend of ingredients, ready to energize your mornings.",
+                                                            "inStock": 1,
+                                                            "price": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "144682855",
+                                                            "name": "Set Dosa(3 Pcs)",
+                                                            "category": "Breakfast",
+                                                            "description": "Light and fluffy, this classic South Indian breakfast delight is the perfect way to start your day.",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 8900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/a1f17387-e1ac-472c-b3a6-1b1d023517b2_542ff14a-8440-40f7-bf56-4bf4685140f5.jpg",
+                                            "categoryId": "47969481"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Snacks",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138600613",
+                                                            "name": "Masala Maggi",
+                                                            "category": "Snacks",
+                                                            "description": "A flavor-packed and irresistible vegetable snack that's sure to satisfy your taste buds.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/10/3d7f4311-95cf-4827-9618-591af1b9aa65_7d5820b0-9aa6-4918-9897-e71e719f93b0.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 14900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138600605",
+                                                            "name": "Plain Maggi",
+                                                            "category": "Snacks",
+                                                            "description": "Enjoy a simple and delectable bowl of comforting noodles, perfect for an anytime snack.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/10/209dbcc3-a611-45a0-8eb2-bc5af6695ccc_ba9872b9-5975-4fd0-9840-9312db867347.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 12900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139633671",
+                                                            "name": "Bread Omlette",
+                                                            "category": "Snacks",
+                                                            "description": "A delectable combination of fluffy bread and a delectably seasoned omelette, perfect for a quick and satisfying snack.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/10/d2e07ba0-b685-41e3-bb1d-5fe074717d79_12429e9e-3fde-46a3-a4ef-22b032229673.jpg",
+                                                            "inStock": 1,
+                                                            "price": 10900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.5",
+                                                                    "ratingCount": "6 ratings",
+                                                                    "ratingCountV2": "6"
+                                                                }
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138993708",
+                                                            "name": "VEG MAGGI",
+                                                            "category": "Snacks",
+                                                            "description": "A flavorful and satisfying vegetarian snack that will tantalize your taste buds.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/13/6a0eedea-15b1-4ff6-a8dd-23476798e9c5_dcb4b9d7-e82b-4fec-b9b0-d73650e62601.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 14900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/5/10/3d7f4311-95cf-4827-9618-591af1b9aa65_7d5820b0-9aa6-4918-9897-e71e719f93b0.jpg",
+                                            "categoryId": "47744144"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Fresh Fruit Bowls",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138231046",
+                                                            "name": "Fruit Salad with Ice Cream",
+                                                            "category": "Fresh Fruit Bowls",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/12/26e4d495-788b-460c-ab99-089e7397052a_6a5ae412-3ad5-451f-a72d-fefc1098dcab.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 15800,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.6",
+                                                                    "ratingCount": "6 ratings",
+                                                                    "ratingCountV2": "6"
+                                                                }
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137476637",
+                                                            "name": "3 in 1 fruit bowl",
+                                                            "category": "Fresh Fruit Bowls",
+                                                            "description": "this bowl filled with fresh watermelon and papaya and Apple ",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/4/a76d79d8-da6c-434d-825d-2560ddf2a0a1_ab97ed71-918b-4034-af36-29770137d053.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 10900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "5.0",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137476633",
+                                                            "name": "Watermelon slices",
+                                                            "category": "Fresh Fruit Bowls",
+                                                            "description": "This bowl filled with fresh watermelon pieces.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/4/1d4a5ebb-7bbf-40d4-b3a8-cf6c2367a774_ac5e7246-f1b4-4ad0-9923-c6614d6769dd.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.6",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "146008664",
+                                                            "name": "Papaya slices",
+                                                            "category": "Fresh Fruit Bowls",
+                                                            "description": "Sliced papaya bursting with fresh and vibrant flavors, a delightful addition to your fruit bowl.",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "140908969",
+                                                            "name": "Fruit bowl",
+                                                            "category": "Fresh Fruit Bowls",
+                                                            "description": "A refreshing medley of vibrant and succulent fruits, bursting with natural sweetness and served in a beautiful presentation.",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 13800,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137476636",
+                                                            "name": "2 in 1 fruit bowl",
+                                                            "category": "Fresh Fruit Bowls",
+                                                            "description": "This bowl filled with Watermelon and papaya.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/4/a76d79d8-da6c-434d-825d-2560ddf2a0a1_ab97ed71-918b-4034-af36-29770137d053.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "139506712",
+                                                            "name": "Fruit salad with Honey",
+                                                            "category": "Fresh Fruit Bowls",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/4c597388-12f4-4eba-9d58-3ad5fab85a18_85ef7ebb-2477-4e67-8e1d-919e6569a6e1.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 15800,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/4/12/26e4d495-788b-460c-ab99-089e7397052a_6a5ae412-3ad5-451f-a72d-fefc1098dcab.jpg",
+                                            "categoryId": "47032506"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Lassi",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138032959",
+                                                            "name": "Sweet Lassi",
+                                                            "category": "Lassi",
+                                                            "description": "A refreshing and indulgent blend of smooth, creamy goodness with a touch of sweetness.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/9e9f46d9-3939-4b38-9c06-761e6b673944_9b904a6b-bf31-42b7-9e0f-3bb3e6d76c4d.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 8900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "2.0",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138073151",
+                                                            "name": "Mango Lassi",
+                                                            "category": "Lassi",
+                                                            "description": "Refreshing and creamy, this tropical delight provides a burst of sweet and tangy flavors that will transport your taste buds to paradise.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/74bc44d2-f440-47a2-bcd4-8297fc470271_9854c062-d081-4b9d-a671-1ad25299247e.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "138600581",
+                                                            "name": "Butter milk",
+                                                            "category": "Lassi",
+                                                            "description": "A creamy and refreshing beverage that offers a delightful blend of flavors.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/01d56ad5-e6a1-43e1-8542-231a6c5a2b16_85481e3e-3671-47f8-80d2-7459a377bfbd.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 6900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/9e9f46d9-3939-4b38-9c06-761e6b673944_9b904a6b-bf31-42b7-9e0f-3bb3e6d76c4d.jpg",
+                                            "categoryId": "47277087"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Fresh fruit juice combo",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "140909441",
+                                                            "name": "Watermelon Juice With Banana Juice",
+                                                            "category": "Fresh fruit juice combo",
+                                                            "description": "A refreshing blend of watermelon and banana juice, bursting with natural sweetness and invigorating flavors.",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 15800,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "140910979",
+                                                            "name": "Mango Fresh Juice With Water Melon Fresh Juice",
+                                                            "category": "Fresh fruit juice combo",
+                                                            "description": "A refreshing blend of juicy mango and watermelon, this fresh fruit juice combo is the perfect thirst-quencher for fruit lovers.",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "140911684",
+                                                            "name": "Carrot fresh juice with Banana fresh juice",
+                                                            "category": "Fresh fruit juice combo",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 15800,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "categoryId": "48593173"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Fresh Fruit Juice",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137476628",
+                                                            "name": "Mango fresh fruit juice",
+                                                            "category": "Fresh Fruit Juice",
+                                                            "description": "We won't use ice in any juice. we won't add any preservatives or artificial colors. all juices are prepared freshly once customer placed order.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/0c469899-c4f9-4738-b9a3-08edc9c9ce7a_a6444672-12de-4f84-ae21-9c5c0447c120.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 10900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.4",
+                                                                    "ratingCount": "7 ratings",
+                                                                    "ratingCountV2": "7"
+                                                                }
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137476624",
+                                                            "name": "Muskmelon fresh fruit juice",
+                                                            "category": "Fresh Fruit Juice",
+                                                            "description": "We won't use ice in any juice. we won't add any preservatives or artificial colors. all juices are prepared freshly once customer placed order.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/4/1120eaad-53b6-44d3-9f16-6821c559df10_b6f69077-1a54-4856-9d68-6b38e4946063.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137476623",
+                                                            "name": "Papaya fresh fruit juice",
+                                                            "category": "Fresh Fruit Juice",
+                                                            "description": "We won't use ice in any juice. we won't add any preservatives or artificial colors. all juices are prepared freshly once customer placed order.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/4/47373e37-2019-43ed-8990-1cb437966b10_4627612c-d0ee-406d-bb34-888e647041f8.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 8900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137476625",
+                                                            "name": "Watermelon fresh fruit juice",
+                                                            "category": "Fresh Fruit Juice",
+                                                            "description": "We won't use ice in any juice. we won't add any preservatives or artificial colors. all juices are prepared freshly once customer placed order.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/4/cd9206cd-b68f-4e04-b569-11b62a6e9e53_c89bce6e-9d9b-4716-8873-4273d79a3fbb.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 8900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137476626",
+                                                            "name": "Beetroot fresh fruit juice",
+                                                            "category": "Fresh Fruit Juice",
+                                                            "description": "We won't use ice in any juice. we won't add any preservatives or artificial colors. all juices are prepared freshly once customer placed order.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/4/3dd65280-dece-49f0-a62d-32be5d0c967d_b5b1e069-c86b-49e0-be88-928ebfd68373.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 8900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137476627",
+                                                            "name": "Banana fresh fruit juice",
+                                                            "category": "Fresh Fruit Juice",
+                                                            "description": "We won't use ice in any juice. we won't add any preservatives or artificial colors. all juices are prepared freshly once customer placed order.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/4/b36c2d95-3a2e-4852-ade9-56ce18054c45_f66b94d7-3bbc-45cc-9a4b-a486424f00f5.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137476630",
+                                                            "name": "Carrot fresh fruit juice",
+                                                            "category": "Fresh Fruit Juice",
+                                                            "description": "We won't use ice in any juice. we won't add any preservatives or artificial colors. all juices are prepared freshly once customer placed order.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/4/cd9206cd-b68f-4e04-b569-11b62a6e9e53_c89bce6e-9d9b-4716-8873-4273d79a3fbb.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 8900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "137476631",
+                                                            "name": "Abc apple beetroot and carrot",
+                                                            "category": "Fresh Fruit Juice",
+                                                            "description": "We won't use ice in any juice. we won't add any preservatives or artificial colors. all juices are prepared freshly once customer placed order.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/4/3dd65280-dece-49f0-a62d-32be5d0c967d_b5b1e069-c86b-49e0-be88-928ebfd68373.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "40% OFF",
+                                                                    "subTitle": "USE SPECIALS",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3",
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "offerIds": [
+                                                                "7de3966c-72a5-4ab3-89ce-29981bb0bbe4"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/5/1/0c469899-c4f9-4738-b9a3-08edc9c9ce7a_a6444672-12de-4f84-ae21-9c5c0447c120.jpg",
+                                            "categoryId": "47032505"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                            "type": "FSSAI",
+                                            "imageId": "fssai_final_edss9i",
+                                            "text": [
+                                                "License No. 21224194000831"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                            "name": "Sunshine Cafe",
+                                            "area": "BTM",
+                                            "completeAddress": "Shop No : no.8 , Floor : 3rd floor , Blue color building , Old Madiwala, Chikka Madivala, 1st Stage, BTM Layout, Bengaluru, Karnataka 560068, India 560068"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "isQCLink": false
+    },
+    "tid": "e2115bc0-f9ba-49d6-9925-ba7ab24bbf63",
+    "sid": "j3h620b6-5344-4f4f-ba1c-04fa3f3fdadc",
+    "deviceId": "19cc5883-01e5-b299-dae8-f2e7e412dff7",
+    "csrfToken": "2P3K5WtAUJi8-R6WlS2F9ZPHcgTOPiNSTNukC_Ks"
+}

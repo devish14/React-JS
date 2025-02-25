@@ -24,7 +24,7 @@ const ItemLists = (props) => {
     <div>
       {responseItems.map((item) => {
         return (
-          <div
+          <div data-testid="foodItems"
             className="flex justify-between border-b-[0.5px] border-b-[#d3d3d3]"
             key={item.card.info?.id}
           >
@@ -71,12 +71,10 @@ const ItemLists = (props) => {
             </div>
             <div className="relative w-[150px] h-[130px]">
               {/* Add Button - Positioned Consistently */}
-              <div
-                className="absolute font-bold bottom-5 left-6 text-[rgb(27,166,114)] bg-[#02060cbf] px-3 rounded-lg w-15 text-center"
-                onClick={() => handleAddClick(item)}
-              >
+                <button className="absolute font-bold bottom-5 left-6 text-[rgb(27,166,114)] bg-[#02060cbf] px-3 rounded-lg w-15 text-center"
+                onClick={() => handleAddClick(item)}>
                 Add
-              </div>
+                </button>
 
               {/* Image Placeholder - Ensures Consistent Layout */}
               {item?.card?.info?.imageId ? (
